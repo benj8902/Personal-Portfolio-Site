@@ -398,44 +398,4 @@ footer {
 
 
 
-/*Media*/
-/* Media Query for screens with a width of 320px or less (e.g., smartphones) */
-@media (max-width: 320px) {
-    body {
-        font-size: 14px;
-        /* Adjust the font size for small screens */
-    }
-    /* Adjust the styles for the navigation bar, if necessary */
-    nav {
-        height: 60px;
-        /* Reduce the height of the navigation bar */
-        padding-top: 5px;
-        /* Adjust the top padding */
-    }
-    .logo {
-        height: 80px;
-        /* Adjust the logo size */
-    }
-    .nav-tags .list-item {
-        padding: 0px 10px;
-        /* Adjust the padding for navigation items */
-    }
-}
 
-/* Media Query for screens with a width of 768px or less (e.g., tablets) */
-@media (max-width: 768px) {
-    body {
-        font-size: 16px;
-        /* Reset the font size to the default for medium screens */
-    }
-
-    /* Adjust other styles as needed for screens between 321px and 768px */
-}
-
-@media (max-width: 1200px) {
-    
-}
-
-@media(max-width: 930px) {
-    
-}
