@@ -4,6 +4,7 @@
 @import url('https://fonts.cdnfonts.com/css/menlo');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Manrope:wght@200&family=Montserrat&family=Raleway:wght@200&display=swap');
 
+
 html {
     scroll-behavior: smooth;
 }
@@ -22,7 +23,7 @@ body {
 .list-item, .contact-button, .list-link {
     font-family: "Montserrat", sans-serif;
     font-weight: 500px;
-    font-size: 16px;
+    font-size: 10px;
     /* color: #ECF0F1; */
     color: black;
     text-decoration: none;
@@ -37,8 +38,9 @@ nav {
     justify-content: center;
     align-items: end;
     justify-content: space-between;
-    height: 75px;
+    height: 50px;
     padding-bottom: 50px;
+    margin-top: 15px;
 }
 section {
     height: 400px;
@@ -58,10 +60,10 @@ p {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    padding: 9px 25px;
+    padding: 8px 22px;
     border: none;
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 15px;
     margin-right: 20px;
     color: white;
 }
@@ -71,9 +73,9 @@ p {
 }
 
 .logo {
-    height: 100px;
+    height: 70px;
     cursor: pointer;
-    margin-bottom: -35px;
+    margin-bottom: -20px;
 }
 .nav-tags {
     list-style: none;
@@ -84,7 +86,7 @@ p {
 }
 .nav-tags .list-item a {
     transition: all 0.3s ease 0s;
-    font-size: 20px;
+    font-size: 15px;
 }
 .nav-tags .list-item a:hover {
     color: #5a9247;
@@ -108,14 +110,14 @@ main {
 .header {
     position: absolute;
     top: 150px;
-    right: 100px;
-    font-size: 100px;
+    right: 50px;
+    font-size: 70px;
     font-family: 'Raleway', sans-serif;
     color: rgb(84, 96, 76);
     text-align: right;
 }
 .stu-dev {
-    font-size: 90px;
+    font-size: 65px;
 }
 
 
@@ -124,7 +126,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 75vh;
+    height: 80vh;
     border-top: solid rgb(200, 200, 200) 2px;
 }
 .intro-container {
@@ -136,10 +138,10 @@ main {
 .img-container {
     /* width: 100vw; */
     display: flex;
-    gap: 200px;
+    gap: 150px;
 }
 .ben-img, .mountain, .beach {
-    height: 300px;
+    height: 200px;
     border-radius: 50% 50%;
     /* margin-top: 100px; */
     transition: all 0.2s ease-in-out;
@@ -149,18 +151,18 @@ main {
     box-shadow:rgb(162, 162, 162) 0 0 10px;
 }
 .headings {
-    font-size: 60px;
+    font-size: 40px;
     font-family: "Menlo", sans-serif;
     font-weight: 500px;
-    padding-top: 75px;
+    padding-top: 50px;
     color: #4d853a;
 }
 .bio {
-    font-size: 28px;
+    font-size: 18px;
     width: 30vw;
     font-family: "Menlo", sans-serif;
     text-align: center;
-    padding-top: 75px;
+    padding-top: 50px;
     color: rgb(100, 100, 100);
 }
 .divide {
@@ -173,7 +175,7 @@ main {
 
 /* Experience Div Styling */
 .experience {
-    height: 70vh;
+    height: 80vh;
 
     /* fixed bg code */
     /* background-image: url(images/bamboo.jpg);
@@ -211,27 +213,27 @@ main {
     box-shadow: rgb(96, 96, 96) 0 0 20px;
 }
 .content {
-    font-size: 1.3em;
-    line-height: 1.5;
+    font-size: 15px;
+    line-height: 1.2;
     padding: 15px;
     text-align: center;
     color: rgb(77, 77, 77);
     
 }
 .content > h3 {
-    font-size: 1.4em;
+    font-size: 20px;
     padding-bottom: 10px;
     text-decoration: underline;
 }
-.lead {
+/* .lead {
     padding-top: 30px;
-}
+} */
 ul {
     list-style: none;
 }
 dd {
-    padding-bottom: 25px;
-    font-size: 20px;
+    padding-bottom: 15px;
+    font-size: 15px;
 }
 dd > a {
     text-decoration: none;
@@ -301,7 +303,7 @@ dd > a:hover {
 /* Footer */
 footer {
     background-color: rgb(226, 226, 226);
-    height: 100px;
+    height: 75px;
     position: relative;
     display: flex;
     flex-direction: row-reverse;
@@ -314,9 +316,12 @@ footer {
     display: flex;
     gap: 40px;
 }
+.social-logo {
+    /* height: 30px; */
+}
 .contact-info {
     color: rgb(96, 96, 96);
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.8;
     text-align: center;
@@ -329,7 +334,7 @@ footer {
 }
 .name {
     color: rgb(96, 96, 96);
-    font-size: 20px;
+    font-size: 14px;
 }
 
 
